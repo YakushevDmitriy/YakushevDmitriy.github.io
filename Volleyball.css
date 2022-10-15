@@ -1,0 +1,160 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+html,
+body {
+	height: 100vh;
+	width: 100vw;
+}
+body {
+	position: relative;
+	overflow: hidden;
+}
+#Canvas {
+	position: absolute;
+}
+#Menu {
+	position: absolute;
+	background: url(img/beach.jpg);
+	background-size: cover;
+	left: 0;
+	right: 0;
+	margin: auto;
+	height: 100vh;
+	width: 100vw;
+}
+#start,
+#ruls,
+#records {
+	display: block;
+	margin: 5vh auto;
+	width: 35vh;
+	height: 10vh;
+	font-size: 5vh;
+}
+#Name,
+#Top {
+	margin: 5vh auto;
+	font-size: 10vh;
+	text-align: center;
+	text-shadow: 1px 1px 10px rgb(0, 0, 0);
+}
+#Top {
+	font-size: 5vh;
+}
+#d_start {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background: url(img/beach.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+#d_ruls {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background: url(img/beach.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+ul {
+	padding: 0 5vh;
+	font-size: 3vh;
+}
+li {
+	font-size: 2.5vh;
+}
+#d_records {
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	background: url(img/beach.jpg);
+	background-size: cover;
+	height: 100vh;
+}
+
+#Start {
+	height: 100vh;
+	text-align: center;
+	text-shadow: 1vh 1vh 2vh black;
+	font-size: 4vh;
+}
+#button {
+	display: block;
+	margin: 5vh auto;
+	width: 30vh;
+	height: 10vh;
+	font-size: 5vh;
+}
+#P1Name,
+#P1Color,
+#P2Name,
+#P2Color {
+	width: 30vh;
+	height: 5vh;
+	font-size: 4vh;
+}
+#button_now {
+	display: none;
+	position: absolute;
+	left: 0;
+	right: 0;
+	margin: auto;
+	top: 80vh;
+	width: 35vh;
+	height: 10vh;
+	font-size: 5vh;
+}
+#recordstable {
+	border-collapse: collapse;
+	border-spacing: 0;
+	position: absolute;
+	top: 30vh;
+	left: 10%;
+	right: 10%;
+	margin: auto;
+	height: 50vh;
+	text-align: center;
+}
+th,
+td {
+	border: 0.3vh solid #000;
+	width: 50%;
+}
+#Number {
+	width: 5%;
+}
+#Player {
+	width: 40%;
+}
+#Score {
+	width: 20%;
+}
+#control {
+	border-collapse: collapse;
+	border-spacing: 0;
+	text-align: left;
+	left: 10%;
+	right: 10%;
+	margin: auto;
+}
+#control td {
+	border: 0vh solid #000;
+	vertical-align: top;
+}
+@media screen and (max-width: 50vh)  and (orientation: landscape) { 
+  Canvas { 
+    transform: rotate(-90deg); 
+    transform-origin: left top;
+    width: 100vh; 
+    overflow-x: hidden; 
+    position: absolute; 
+    top: 100%; 
+    left: 0; 
+  }
+}
